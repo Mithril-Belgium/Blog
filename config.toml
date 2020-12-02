@@ -1,0 +1,6 @@
+baseURL = "http://localhost"
+title = "Mithril"
+language= "fr-fr"
+theme = "hugo-geekblog"
+
+[params]
