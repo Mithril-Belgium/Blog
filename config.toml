@@ -1,6 +1,13 @@
-baseURL = "http://localhost"
+baseURL = "https://blog.mithril.be"
 title = "Mithril"
 language= "fr-fr"
 theme = "hugo-geekblog"
+disqusShortname = "blog-mithril-be"
 
-[params]
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+
+[[Data.authors]]
+title="DCollart"
+name="Dominic"
