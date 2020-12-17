@@ -3,6 +3,7 @@ title = "Mithril"
 language= "fr-fr"
 theme = "hugo-geekblog"
 disqusShortname = "blog-mithril-be"
+googleAnalytics = "G-B77PKPWQKK"
 
 [taxonomies]
   author = "authors"
