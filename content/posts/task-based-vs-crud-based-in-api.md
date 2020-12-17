@@ -1,6 +1,6 @@
 +++
 title = "Task based vs CRUD based in API"
-date = "2020-12-14"
+date = "2020-12-16"
 description = ""
 tags = [
     "REST",
