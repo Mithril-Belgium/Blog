@@ -4,10 +4,9 @@ language= "fr-fr"
 theme = "hugo-geekblog"
 disqusShortname = "blog-mithril-be"
 
+[params]
+  googleAnalyticMeasurementId = "G-B77PKPWQKK"
+  
 [taxonomies]
   author = "authors"
   tag = "tags"
-
-[[Data.authors]]
-title="DCollart"
-name="Dominic"
