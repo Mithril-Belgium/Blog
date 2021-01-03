@@ -1,0 +1,14 @@
+title Second scenario - First option
+
+actor Bob
+participant Application
+actor Raymond
+
+
+note over Application: Value:0
+Application->+Bob: Sees 0 bottle
+Application->+Raymond: Sees 0 bottle
+Bob->-Application: Makes it 1
+note over Application: Value:1
+Raymond->-Application: Makes it 1
+note over Application: Value:1

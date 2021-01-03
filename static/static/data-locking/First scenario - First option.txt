@@ -1,0 +1,14 @@
+title First scenario - First option
+
+actor Bob
+participant Application
+actor Raymond
+
+
+note over Application: Value:2
+Application->+Bob: Sees 2 bags of crisps
+Application->+Raymond: Sees 2 bags of crips
+Bob->-Application: Updates to 3
+note over Application: Value:3
+Raymond->-Application: Makes it 3
+note over Application: Value:3

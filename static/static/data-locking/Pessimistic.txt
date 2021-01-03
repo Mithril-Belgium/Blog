@@ -1,0 +1,13 @@
+title Pessimistic
+
+actor Bob
+participant Application
+actor Raymond
+
+
+note over Application: No lock
+Application->+Bob: Gets data
+note over Application: Lock: Bob
+Application->Raymond: Gets data but cannot modify them
+Bob->-Application: Unlocks data
+note over Application: No lock

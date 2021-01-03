@@ -1,0 +1,15 @@
+title Optimistic
+
+actor Bob
+participant Application
+actor Raymond
+
+
+note over Application: Version number: 2
+Application->+Bob: Gets data and version number
+Application->+Raymond: Gets data and version number
+Bob->-Application: Updates with version number 2
+note over Application: Version number: 3
+Application->Bob: Update successful
+Raymond->-Application: Updates with version number 2
+Application->Raymond: Update reject: Incorrect version number
