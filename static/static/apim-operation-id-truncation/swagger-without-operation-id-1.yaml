@@ -1,0 +1,17 @@
+openapi: 3.0.1
+info:
+  title: My super API
+  version: 1.0.0
+paths:
+  /contracts/[contractId]/versions/[versionNumber]/administration/contact-informations:
+    get:
+      responses:
+        200:
+          description: Valid response
+          content: {}
+  /contracts/[contractId]/versions/[versionNumber]/administration/contact-informations/[contactId]:
+    get:
+      responses:
+        200:
+          description: Valid response
+          content: {}
